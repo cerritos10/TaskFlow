@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-.transition-all {
-  transition: all 500ms linear;
+/* Agrega estas clases a tu hoja de estilos */
+
+.sidebar-enter {
+  transform: translateX(-64px); /* Puedes ajustar el valor según el ancho del sidebar */
+}
+
+.sidebar-enter-active {
+  transform: translateX(0);
+  transition: transform 900ms linear;
+}
+
+.sidebar-leave {
+  transform: translateX(0);
+}
+
+.sidebar-leave-active {
+  transform: translateX(-64px); /* Puedes ajustar el valor según el ancho del sidebar */
+  transition: transform 900ms linear;
 }
