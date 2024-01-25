@@ -1,13 +1,14 @@
 import './App.css'
-import Dashboard from './components/organisms/Dashboard'
-
+import Sidebar from './components/molecules/sidebar'
 
 function App() {
 
   return (
     <>
-      <div className="App">
-        <Dashboard />
+      <div className="App bg-midnight-200">
+        <div className='p-2 border-r-1'>
+        <Sidebar/>
+        </div>
       </div>
     </>
   )

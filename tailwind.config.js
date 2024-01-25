@@ -1,4 +1,4 @@
-const {nextui} = require("@nextui-org/react");
+const { nextui } = require("@nextui-org/react");
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -22,7 +22,21 @@ export default {
           '800': '#4f0fc8',
           '900': '#450fa9',
           '950': '#27066f',
-      },      
+        },
+        'midnight': {
+          '50': '#eaf4ff',
+          '100': '#d9eaff',
+          '200': '#bad7ff',
+          '300': '#90bbff',
+          '400': '#6592ff',
+          '500': '#4169ff',
+          '600': '#203dff',
+          '700': '#152ded',
+          '800': '#152bbe',
+          '900': '#1a2c95',
+          '950': '#070b27',
+        },
+
       }
     },
   },

@@ -2,22 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Agrega estas clases a tu hoja de estilos */
+/* * { */
+  /* font-family: 'Karla', sans-serif; */
+  /* font-family: 'Neuton', serif; */
+  /* font-family: 'Inconsolata', monospace; */
+  /* font-family: "Plus Jakarta Display",sans-serif;
+  font-weight: 600; */
 
-.sidebar-enter {
-  transform: translateX(-64px); /* Puedes ajustar el valor según el ancho del sidebar */
-}
+/* } */
 
-.sidebar-enter-active {
-  transform: translateX(0);
-  transition: transform 900ms linear;
-}
+/* *{
+  font-family: 'Plus Jakarta Display', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+} */
 
-.sidebar-leave {
-  transform: translateX(0);
-}
 
-.sidebar-leave-active {
-  transform: translateX(-64px); /* Puedes ajustar el valor según el ancho del sidebar */
-  transition: transform 900ms linear;
-}
+  /* font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-family: 'Miriam Libre', sans-serif; */
+
+  /* font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-family: 'Gayathri', sans-serif;
+  font-family: 'Miriam Libre', sans-serif;
+  /* font-family: 'Share Tech', sans-serif; */
