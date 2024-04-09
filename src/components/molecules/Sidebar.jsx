@@ -63,7 +63,7 @@ function Sidebar() {
 
                 <div className='mt-10 flex flex-col space-y-8 cursor-pointer'>
                     {navLinks.map((item, index) => (
-                        <div key={index} className={'flex space-x-3 p-2 rounded-md' + (activeIndex === index ? ' bg-[#1a1f37] text-midnight-50 hover:' : '') + (!isExpanded ? ' w-[90%]' : ' ')}
+                        <div key={index} className={'flex space-x-3 p-2 rounded-md' + (activeIndex === index ? ' bg-[#2c3356] text-midnight-50 hover:' : '') + (!isExpanded ? ' w-[42px]' : '')}
                             onClick={() => setActiveIndex(index)}
                         >
                             <item.icon />

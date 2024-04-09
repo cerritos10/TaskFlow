@@ -7,9 +7,14 @@ import Header from '../molecules/Header';
 const Dashboard = () => {
 
     return (
-        <div>
-            Dashboard
-        </div>
+        <>
+            <div className='w-full flex'>
+                <Sidebar />
+                <div className='grow'>
+                <MainContent />
+                </div>
+            </div>
+        </>
     );
 };
 
